@@ -1,0 +1,517 @@
+.quem-somos{
+  padding: 62px 0;
+}
+
+.quem-somos .emphasys{
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 50px;
+}
+
+.quem-somos .video-title{
+    font-weight: 500;
+}
+
+.quem-somos video{
+    margin-top: 20px
+}
+
+.quem-somos .row a{
+  color: #061868;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.quem-somos .row a span{
+  display: inline-block;
+  border-bottom: 2px solid #061868;
+}
+
+.quem-somos .row a img{
+  width: 48px;
+  height: 48px;
+}
+
+.quem-somos .row.mvv{
+  margin-top: 80px;
+  column-gap: auto;
+}
+
+.quem-somos .row.mvv div{
+  text-align: center;
+}
+
+.quem-somos .row.mvv div svg{
+  width: 100px;
+  height: 100px;
+  fill: #061868;
+}
+
+.quem-somos .row.mvv div .mvv-titulo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+}
+
+.quem-somos .row.mvv div p{
+    text-align: center;
+    padding: 0 30px;
+}
+
+.nossos-eventos{
+  padding: 24px 0;
+  background-color: #061868;
+}
+
+.nossos-eventos .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.nossos-eventos .row:first-child{
+  margin-bottom: 20px;
+}
+
+.nossos-eventos .row .options-eventos{
+  /*display: none;*/
+  width: 100%;
+}
+
+.nossos-eventos .row .options-eventos ul li{
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  list-style: none;
+  display: block;
+}
+
+.nossos-eventos .row .options-eventos ul li .active{
+  text-decoration: underline;
+}
+
+.nossos-eventos .row .nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.nossos-eventos .row label{
+  color: #fff;
+  cursor: pointer;
+  padding: 4px 18px;
+  font-size: 2.4em;
+  display: inline-block;
+  display: none;
+}
+
+.nossos-eventos .lista-eventos{
+  margin: 20px 0;
+}
+
+.nossos-eventos .lista-eventos .item{
+  color: #fff;
+  height: 420px;
+  margin-right: 20px;
+  background: #777 no-repeat center center;
+  background-size: cover;
+}
+
+.nossos-eventos .lista-eventos .item .bg{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 40px;
+  justify-content: flex-end;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.65) 100%);
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+}
+
+.nossos-eventos .lista-eventos .item h5{
+  font-size: 2.2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Teko', sans-serif;
+}
+
+.nossos-eventos .lista-eventos .item span{
+  display: block;
+  font-size: .9em;
+  font-weight: 400;
+  margin: 6px 0 8px;
+  text-transform: uppercase;
+}
+
+.nossos-eventos .lista-eventos .item p{
+  font-size: .8em;
+  line-height: 1.5;
+}
+
+.servicos-solucoes{
+  padding: 62px 0;
+}
+
+.servicos-solucoes .serv{
+  margin: 40px 0;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.servicos-solucoes .serv .item{
+  position: relative;
+  margin-bottom: 10px;
+  background-color: #fff;
+  background: no-repeat center center;
+  background-size: cover;
+}
+
+.servicos-solucoes .serv .item div{
+  color: #fff;
+  height: 100%;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.servicos-solucoes .serv .item:hover div{
+  background-color: rgba(0, 0, 104, 0.8);
+}
+
+.servicos-solucoes .serv .item div .cta{
+  font-size: 2em;
+  line-height: 1.2;
+  font-weight: 600;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.servicos-solucoes .serv .item div p{
+  font-size: .9em;
+}
+
+.servicos-solucoes .serv .item div a{
+  bottom: 48px;
+  display: inline-block;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.servicos-solucoes .serv .item div a img{
+  width: 16px;
+  margin-right: 6px;
+  margin-bottom: -2px;
+}
+
+.servicos-solucoes .solu{
+  column-gap: 20px;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.servicos-solucoes .solu a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #061868;
+}
+
+.servicos-solucoes .solu a.active{
+  background-color: #49A033;
+}
+
+.servicos-solucoes .listagem-solu{
+  margin-top: 20px;
+}
+
+.servicos-solucoes .lista-solu{
+  padding: 8px 10px;
+  background-color: #fff;
+  /* border: 8px solid #49A033; */
+  display: none;
+}
+
+.servicos-solucoes .lista-solu .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicos-solucoes .lista-solu.i1{
+  display: block;
+}
+
+.servicos-solucoes .lista-solu .lst{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.servicos-solucoes .lista-solu .lst .it{
+  height: 140px;
+  background: no-repeat center center;
+  background-size: contain;
+}
+
+.servicos-solucoes .lista-solu label{
+  color: #fff;
+  cursor: pointer;
+  padding: 4px 18px;
+  font-size: 2.4em;
+  display: none;
+  background-color: #49A033;
+}
+
+.youtube a{
+  display: block;
+  height: 160px;
+  background: no-repeat center;
+  background-size: cover;
+}
+
+.siganos{
+  padding: 62px 0;
+}
+
+.siganos .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.siganos .row label{
+  color: #fff;
+  cursor: pointer;
+  padding: 4px 18px;
+  font-size: 2.4em;
+  display: none;
+  background-color: #49A033;
+}
+
+.siganos .lista-insta{
+  margin-top: 40px;
+}
+
+.siganos .lista-insta .item{
+  display: block;
+  min-height: 340px;
+  margin: 0 10px;
+  background: #777 no-repeat center center;
+  background-size: cover;
+}
+
+.depoimentos{
+  padding: 62px 0;
+  background-color: #061868;
+}
+
+.depoimentos .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.depoimentos .row label{
+  color: #fff;
+  opacity: .6;
+  cursor: pointer;
+  font-size: 2.4em;
+  font-weight: 300;
+  padding: 2px 4px;
+  margin-left: 20px;
+  display: none;
+}
+
+.depoimentos .carousel{
+  /* display: flex; */
+  margin-top: 40px;
+  /* column-gap: 60px; */
+}
+
+.depoimentos .carousel .depo{
+  color: #666666;
+  padding: 32px 48px;
+  background-color: #ffffff;
+}
+
+.depoimentos .carousel .depo p{
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.depoimentos .carousel .depo figure img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.depoimentos .carousel .depo figure span{
+  color: #061868;
+  font-size: 1.2em;
+  font-weight: 500;
+  display: block;
+  padding-top: 4px;
+}
+
+.depoimentos .carousel .depo figure p{
+  margin: 4px 0;
+  font-size: .9em;
+  font-weight: 300;
+}
+
+.mapa{
+  padding: 62px 0;
+}
+
+.mapa .content{
+  display: flex;
+  column-gap: 42px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.mapa .content select{
+  width: 200px;
+  color: #666666;
+  font-size: 1.1em;
+  padding: 4px 8px;
+  margin: 10px 0;
+}
+
+.mapa .content span{
+  color: #666666;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.mapa iframe{
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .quem-somos .row{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .quem-somos .row .rs{
+    width: 40%;
+  }
+
+  .quem-somos .row .txt{
+    width: 45%;
+  }
+
+  .quem-somos .row.mvv div{
+    text-align: left;
+    width: 30%;
+  }
+
+  .quem-somos .row.mvv div p{
+    text-align: justify;
+    padding: 0;
+  }
+
+  .nossos-eventos .row .options-eventos{
+    margin: 0 60px;
+    width: auto;
+  }
+
+  .nossos-eventos .row .options-eventos ul li{
+    margin: 5px 20px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    list-style: none;
+    display: inline-block;
+  }
+
+  .servicos-solucoes .serv{
+    display: flex;
+  }
+
+  .servicos-solucoes .serv .item{
+    height: 480px;
+    width: 31%;
+  }
+
+  .servicos-solucoes .serv .item div h4{
+    font-size: 2em;
+  }
+
+  .servicos-solucoes .serv .item div a{
+    position: absolute;
+  }
+
+  .servicos-solucoes .solu{
+    display: flex;
+  }
+
+  .servicos-solucoes .solu a{
+    height: 60px;
+  }
+
+  .servicos-solucoes .lista-solu{
+    padding: 60px 100px;
+  }
+
+  .servicos-solucoes .lista-solu .lst{
+    width: 70%;
+  }
+
+  .servicos-solucoes .lista-solu label{
+    display: inline-block;
+  }
+
+  .servicos-solucoes .lista-solu.i1{
+    display: block;
+  }
+
+  .youtube a{
+    height: 360px;
+  }
+
+  .nossos-eventos .row label,
+  .siganos .row label,
+  .depoimentos .row label{
+    display: inline-block;
+  }
+
+  .mapa .content{
+    flex-direction: row;
+  }
+
+  .mapa .content select{
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .servicos-solucoes .serv .item{
+    height: 460px;
+  }
+
+  .servicos-solucoes .serv .item div h4{
+    font-size: 2.9em;
+  }
+
+  .servicos-solucoes .solu a{
+    font-size: 1.4em;
+  }
+}

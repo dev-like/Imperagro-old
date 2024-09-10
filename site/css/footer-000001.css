@@ -1,0 +1,134 @@
+footer{
+  padding: 32px 0;
+}
+
+footer .content{
+  color: #666666;
+  padding: 62px 0;
+  font-size: .9em;
+  border-top: 1px solid #e8e8e8;
+}
+
+footer .content{
+  display: flex;
+  column-gap: 42px;
+  flex-direction: column;
+}
+
+footer .content .logo{
+  width: 200px;
+}
+
+footer .content h6{
+  color: #061868;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+footer .content a{
+  color: #fff;
+  padding: 14px;
+  display: block;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: right;
+  background-color: #061868;
+}
+
+footer .content a svg{
+  width: 20px;
+  height: 20px;
+  float: left;
+  fill: #fff;
+}
+
+footer .content .tel-link {
+    background-color: #0000;
+    color: #061868;
+    text-decoration: underline;
+    font-size: 1em;
+    text-align: left;
+    padding: 0;
+}
+
+footer .content .whatsapp-link {
+    margin-top: 20px;
+    background-color: #0000;
+    color: #061868;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: left;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.copy{
+  color: #fff;
+  padding: 22px 0;
+  font-size: .9em;
+  background: #061868; /* Old browsers */
+  background: -moz-linear-gradient(left,  #061868 0%, #061868 65%, #48a03f 65%, #48a03f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #061868 0%,#061868 65%,#48a03f 65%,#48a03f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #061868 0%,#061868 65%,#48a03f 65%,#48a03f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#061868', endColorstr='#48a03f',GradientType=1 ); /* IE6-9 */
+}
+
+.copy .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copy ul li{
+  margin: 0 10px;
+  list-style: none;
+  display: inline-block;
+}
+
+.copy ul li a{
+  display: flex;
+  padding: 6px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.copy ul li a svg{
+  fill: #fff;
+  width: 16px;
+  height: 16px;
+}
+
+.copy ul li a:hover{
+  background-color: #ccc;
+}
+
+@media (min-width: 768px) {
+  footer .content{
+    flex-direction: row;
+  }
+
+  footer .content .col{
+    width: 20%;
+  }
+
+  footer .content .logo{
+    width: 160px;
+  }
+
+  .copy br{
+    display: none;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+  footer .content .logo{
+    width: 200px;
+  }
+}
+
