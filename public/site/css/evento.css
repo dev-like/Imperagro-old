@@ -1,0 +1,116 @@
+.banner{
+	height: 400px;
+	background-color: #eee;
+}
+
+section.conteudo{
+	margin: 60px 0;
+}
+
+section.conteudo h1{
+	font-size: 2.4em;
+	margin: 20px 0 40px;
+}
+
+section.conteudo h5{
+	font-size: 1.4em;
+	font-weight: 300;
+	line-height: 2;
+	margin: 10px 0 60px;
+}
+
+section.conteudo article p{
+	line-height: 1.7;
+	margin-bottom: 16px;
+}
+
+section.galeria{
+	margin: 80px 0;
+}
+
+section.galeria .ga-list-foco{
+	padding: 20px 0px;
+}
+
+section.galeria .ga-list-foco .item{
+	height: 420px;
+  	background: #777 no-repeat center center;
+  	background-size: cover;
+}
+
+
+section.galeria .ga-list-choice .item{
+	height: 200px;
+	margin: 10px;
+	background: #777 no-repeat center center;
+  	background-size: cover;
+}
+
+
+@media (min-width: 768px) {
+	section.galeria .ga-list-foco .item{
+		height: 560px;
+	}
+}
+
+@media (min-width: 992px) {
+	section.galeria .ga-list-foco{
+		padding: 20px 80px;
+	}
+	
+	section.galeria .ga-list-choice .item{
+		height: 280px;
+	}
+}
+
+section.relacionados .content.list{
+	display: flex;
+	margin-top: 40px;
+	flex-direction: column;
+}
+
+@media (min-width: 768px) {
+	section.relacionados .content.list{
+		flex-direction: row;
+	}
+}
+
+section.relacionados .item{
+  color: #fff;
+  height: 420px;
+  margin-right: 20px;
+  background: #777 no-repeat center center;
+  background-size: cover;
+}
+
+section.relacionados .item .bg{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 40px;
+  justify-content: flex-end;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.65) 100%);
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+}
+
+section.relacionados .item h5{
+  font-size: 2.2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Teko', sans-serif;
+}
+
+section.relacionados .item span{
+  display: block;
+  font-size: .9em;
+  font-weight: 400;
+  margin: 6px 0 8px;
+  text-transform: uppercase;
+}
+
+section.relacionados .item p{
+  font-size: .8em;
+  line-height: 1.5;
+}
